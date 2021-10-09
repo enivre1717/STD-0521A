@@ -454,3 +454,40 @@ TermSocket.open: Opened 1
 [W 13:53:34.269 NotebookApp] No such file or directory: STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
 [W 13:53:34.271 NotebookApp] 404 GET /user/enivre1717-std-0521a-0x5j1f0q/api/contents/STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb?content=0&1633787614102 (42.61.135.7) 3.860000ms referer=https://hub-binder.mybinder.ovh/user/enivre1717-std-0521a-0x5j1f0q/lab/tree/STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
 [I 13:53:34.460 NotebookApp] Uploading file to /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 14:06:04.128 NotebookApp] Culling 'idle' kernel 'python3' (acdfdd5d-389d-4134-bdb6-5699f40513f5) with 2 connections due to 613 seconds of inactivity.
+[I 14:06:04.129 NotebookApp] Kernel shutdown: acdfdd5d-389d-4134-bdb6-5699f40513f5
+[I 14:09:23.149 NotebookApp] Kernel started: fc888474-0cbe-439c-8e66-69bc13827256, name: ir
+[I 14:09:24.755 NotebookApp] Adapting from protocol version 5.0 (kernel fc888474-0cbe-439c-8e66-69bc13827256) to 5.3 (client).
+[I 14:11:02.872 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[I 14:11:35.029 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:12:23.962 NotebookApp] Kernel started: beeea65b-30d6-4eaf-b8ef-fe19c557f2be, name: python3
+[I 14:13:35.485 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:15:35.930 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:17:36.760 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:19:37.184 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 14:20:04.127 NotebookApp] Culling 'idle' kernel 'ir' (fc888474-0cbe-439c-8e66-69bc13827256) with 1 connections due to 624 seconds of inactivity.
+[I 14:20:04.127 NotebookApp] Kernel shutdown: fc888474-0cbe-439c-8e66-69bc13827256
+[I 14:20:33.967 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:21:03.355 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[I 14:21:07.872 NotebookApp] Kernel started: 1c7ae806-8f05-4d47-b5ee-e209ed6fc2f6, name: ir
+[I 14:21:09.421 NotebookApp] Adapting from protocol version 5.0 (kernel 1c7ae806-8f05-4d47-b5ee-e209ed6fc2f6) to 5.3 (client).
+[I 14:23:03.830 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[I 14:26:34.439 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 14:32:04.128 NotebookApp] Culling 'idle' kernel 'ir' (1c7ae806-8f05-4d47-b5ee-e209ed6fc2f6) with 1 connections due to 610 seconds of inactivity.
+[I 14:32:04.129 NotebookApp] Kernel shutdown: 1c7ae806-8f05-4d47-b5ee-e209ed6fc2f6
+[W 14:35:04.127 NotebookApp] Culling 'idle' kernel 'python3' (beeea65b-30d6-4eaf-b8ef-fe19c557f2be) with 1 connections due to 620 seconds of inactivity.
+[I 14:35:04.129 NotebookApp] Kernel shutdown: beeea65b-30d6-4eaf-b8ef-fe19c557f2be
+[I 14:36:34.959 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:37:12.817 NotebookApp] Kernel started: eeb5e202-1698-48b1-aee3-fe2d630631d1, name: python3
+[I 14:38:35.527 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:40:36.053 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:42:36.484 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:44:36.937 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:46:37.432 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:47:59.201 NotebookApp] Kernel started: b31c6408-7b55-4e8b-8627-15cab922bec4, name: ir
+[I 14:48:00.570 NotebookApp] Adapting from protocol version 5.0 (kernel b31c6408-7b55-4e8b-8627-15cab922bec4) to 5.3 (client).
+[I 14:48:37.917 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:49:04.435 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[I 14:50:38.570 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:50:59.422 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 14:51:04.947 NotebookApp] Saving file at /05-01-Vectors.ipynb
