@@ -450,3 +450,7 @@ The downloaded source packages are in
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[W 13:53:34.268 NotebookApp] 404 GET /user/enivre1717-std-0521a-0x5j1f0q/api/contents/STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb?content=0&1633787614102 (42.61.135.7): No such file or directory: STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 13:53:34.269 NotebookApp] No such file or directory: STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 13:53:34.271 NotebookApp] 404 GET /user/enivre1717-std-0521a-0x5j1f0q/api/contents/STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb?content=0&1633787614102 (42.61.135.7) 3.860000ms referer=https://hub-binder.mybinder.ovh/user/enivre1717-std-0521a-0x5j1f0q/lab/tree/STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:53:34.460 NotebookApp] Uploading file to /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
