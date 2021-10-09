@@ -1,0 +1,452 @@
+[I 12:23:35.091 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-10-09 12:23:36.198 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.198 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.198 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.198 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.199 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.199 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.199 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.199 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-10-09 12:23:36.199 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-10-09 12:23:36.199 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.199 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-10-09 12:23:36.199 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-10-09 12:23:36.214 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-10-09 12:23:36.214 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 12:23:36.222 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 12:23:36.224 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 12:23:36.225 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 12:23:36.225 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 12:23:36.225 NotebookApp] http://jupyter-enivre1717-2dstd-2d0521a-2d0x5j1f0q:8888/user/enivre1717-std-0521a-0x5j1f0q/?token=...
+[I 12:23:36.225 NotebookApp]  or http://127.0.0.1:8888/user/enivre1717-std-0521a-0x5j1f0q/?token=...
+[I 12:23:36.225 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 12:23:36.229 NotebookApp] No web browser found: could not locate runnable browser.
+[I 12:23:36.231 NotebookApp] 302 GET /user/enivre1717-std-0521a-0x5j1f0q/ (10.2.0.20) 0.810000ms
+[I 12:23:37.869 NotebookApp] 302 GET /user/enivre1717-std-0521a-0x5j1f0q/?token=ECOZUEZbQhC1sWbmTdISfQ (42.61.135.7) 1.320000ms
+[I 12:23:38.050 NotebookApp] 301 GET /user/enivre1717-std-0521a-0x5j1f0q/lab/?token=ECOZUEZbQhC1sWbmTdISfQ (42.61.135.7) 1.780000ms
+[I 12:23:40.831 NotebookApp] 301 GET /user/enivre1717-std-0521a-0x5j1f0q/static/favicons/favicon.ico (42.61.135.7) 0.600000ms
+[I 2021-10-09 12:23:43.159 LabApp] Build is up to date
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 12:34:00.176 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 12:34:00.177 NotebookApp] Notebook 05-01-Vectors.ipynb is not trusted
+[I 12:34:04.125 NotebookApp] Kernel started: d6fd11d6-1532-440d-9819-54619007c845, name: ir
+[I 12:34:04.126 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 12:34:04.126 NotebookApp] Culling kernels even with connected clients
+[I 12:34:05.735 NotebookApp] Adapting from protocol version 5.0 (kernel d6fd11d6-1532-440d-9819-54619007c845) to 5.3 (client).
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 12:34:06.185 NotebookApp] Starting buffering for d6fd11d6-1532-440d-9819-54619007c845:0a37a834-5168-422e-98a8-430e9cb62648
+[I 12:34:06.523 NotebookApp] Adapting from protocol version 5.0 (kernel d6fd11d6-1532-440d-9819-54619007c845) to 5.3 (client).
+[I 12:34:06.915 NotebookApp] 301 GET /user/enivre1717-std-0521a-0x5j1f0q/static/favicons/favicon-busy-1.ico (42.61.135.7) 1.220000ms
+[I 12:34:07.284 NotebookApp] Adapting from protocol version 5.0 (kernel d6fd11d6-1532-440d-9819-54619007c845) to 5.3 (client).
+[I 12:34:46.187 NotebookApp] Creating new directory in 
+[W 12:34:55.978 NotebookApp] delete /Untitled Folder
+[I 12:36:01.107 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[W 12:38:26.281 NotebookApp] Notebook 05-01-Vectors.ipynb is not trusted
+[I 12:38:49.602 NotebookApp] Starting buffering for d6fd11d6-1532-440d-9819-54619007c845:0c8ae459-1f2b-4bf0-bd4d-b06f5642048a
+[I 12:38:50.664 NotebookApp] 301 GET /user/enivre1717-std-0521a-0x5j1f0q/static/favicons/favicon.ico (42.61.135.7) 3.530000ms
+[I 2021-10-09 12:38:53.072 LabApp] Build is up to date
+[W 12:38:54.731 NotebookApp] Notebook 05-01-Vectors.ipynb is not trusted
+[I 12:38:56.397 NotebookApp] Adapting from protocol version 5.0 (kernel d6fd11d6-1532-440d-9819-54619007c845) to 5.3 (client).
+[I 12:41:08.623 NotebookApp] Creating new directory in 
+[W 12:41:16.037 NotebookApp] delete /Untitled Folder
+[I 12:41:21.421 NotebookApp] Uploading file to /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 12:41:26.576 NotebookApp] Notebook STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb is not trusted
+[I 12:41:27.949 NotebookApp] Kernel started: acdfdd5d-389d-4134-bdb6-5699f40513f5, name: python3
+[I 12:41:29.971 NotebookApp] Starting buffering for acdfdd5d-389d-4134-bdb6-5699f40513f5:51e3bc11-750d-46c5-9683-3fd81f249980
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/colorspace_2.0-2.tar.gz'
+Content type 'application/octet-stream' length 2196563 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/farver_2.1.0.tar.gz'
+Content type 'application/octet-stream' length 1281864 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/labeling_0.4.2.tar.gz'
+[I 12:42:55.536 NotebookApp] Saving file at /05-01-Vectors.ipynb
+Content type 'application/octet-stream' length 10156 bytes
+==================================================
+downloaded 10156 bytes
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/munsell_0.5.0.tar.gz'
+Content type 'application/octet-stream' length 182653 bytes (178 KB)
+==================================================
+downloaded 178 KB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/RColorBrewer_1.1-2.tar.gz'
+Content type 'application/octet-stream' length 11532 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/viridisLite_0.4.0.tar.gz'
+Content type 'application/octet-stream' length 1267080 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/pkgconfig_2.0.3.tar.gz'
+Content type 'application/octet-stream' length 6080 bytes
+==================================================
+downloaded 6080 bytes
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/gtable_0.3.0.tar.gz'
+Content type 'application/octet-stream' length 368081 bytes (359 KB)
+==================================================
+downloaded 359 KB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/isoband_0.2.5.tar.gz'
+Content type 'application/octet-stream' length 1671911 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/scales_1.1.1.tar.gz'
+Content type 'application/octet-stream' length 515201 bytes (503 KB)
+==================================================
+downloaded 503 KB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/tibble_3.1.5.tar.gz'
+Content type 'application/octet-stream' length 739036 bytes (721 KB)
+==================================================
+downloaded 721 KB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/ggplot2_3.3.5.tar.gz'
+Content type 'application/octet-stream' length 3063309 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+* installing *source* package ‘colorspace’ ...
+** package ‘colorspace’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -std=gnu99 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colorspace.c -o colorspace.o
+gcc -std=gnu99 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o colorspace.so colorspace.o init.o -L/usr/lib/R/lib -lR
+installing to /srv/rlibs/00LOCK-colorspace/00new/colorspace/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+[I 12:43:27.051 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 12:43:27.052 NotebookApp] Notebook STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb is not trusted
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (colorspace)
+* installing *source* package ‘farver’ ...
+** package ‘farver’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ColorSpace.cpp -o ColorSpace.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Comparison.cpp -o Comparison.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Conversion.cpp -o Conversion.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encode.cpp -o encode.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c farver.cpp -o farver.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o farver.so ColorSpace.o Comparison.o Conversion.o encode.o farver.o init.o -L/usr/lib/R/lib -lR
+installing to /srv/rlibs/00LOCK-farver/00new/farver/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (farver)
+* installing *source* package ‘labeling’ ...
+** package ‘labeling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (labeling)
+* installing *source* package ‘RColorBrewer’ ...
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (RColorBrewer)
+* installing *source* package ‘viridisLite’ ...
+** package ‘viridisLite’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (viridisLite)
+* installing *source* package ‘pkgconfig’ ...
+** package ‘pkgconfig’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pkgconfig)
+* installing *source* package ‘gtable’ ...
+** package ‘gtable’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gtable)
+* installing *source* package ‘isoband’ ...
+** package ‘isoband’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clip-lines.cpp -o clip-lines.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isoband.cpp -o isoband.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c polygon.cpp -o polygon.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c separate-polygons.cpp -o separate-polygons.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-clip-lines.cpp -o test-clip-lines.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-runner.cpp -o test-runner.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-separate-polygons.cpp -o test-separate-polygons.o
+[I 12:44:19.113 NotebookApp] Kernel shutdown: d6fd11d6-1532-440d-9819-54619007c845
+/usr/lib/R/etc/Makeconf:177: recipe for target 'test-separate-polygons.o' failed
+make: *** [test-separate-polygons.o] Interrupt
+ERROR: compilation failed for package ‘isoband’
+* removing ‘/srv/rlibs/isoband’
+* installing *source* package ‘munsell’ ...
+** package ‘munsell’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (munsell)
+* installing *source* package ‘tibble’ ...
+** package ‘tibble’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+gcc -std=gnu99 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attributes.c -o attributes.o
+gcc -std=gnu99 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coerce.c -o coerce.o
+gcc -std=gnu99 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I"/usr/share/R/include" -DNDEBUG     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrixToDataFrame.c -o matrixToDataFrame.o
+gcc -std=gnu99 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o tibble.so attributes.o coerce.o init.o matrixToDataFrame.o -L/usr/lib/R/lib -lR
+installing to /srv/rlibs/00LOCK-tibble/00new/tibble/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+[I 12:44:22.136 NotebookApp] Kernel started: 44883046-35b0-4447-9823-2475300883e6, name: ir
+[I 12:44:23.253 NotebookApp] Adapting from protocol version 5.0 (kernel 44883046-35b0-4447-9823-2475300883e6) to 5.3 (client).
+[I 12:44:23.631 NotebookApp] Starting buffering for 44883046-35b0-4447-9823-2475300883e6:d2f677ee-0d75-4f76-84af-17153df30a23
+[I 12:44:23.984 NotebookApp] Adapting from protocol version 5.0 (kernel 44883046-35b0-4447-9823-2475300883e6) to 5.3 (client).
+[I 12:44:24.717 NotebookApp] Adapting from protocol version 5.0 (kernel 44883046-35b0-4447-9823-2475300883e6) to 5.3 (client).
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (tibble)
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/isoband_0.2.5.tar.gz'
+Content type 'application/octet-stream' length 1671911 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/scales_1.1.1.tar.gz'
+Content type 'application/octet-stream' length 515201 bytes (503 KB)
+==================================================
+downloaded 503 KB
+
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/ggplot2_3.3.5.tar.gz'
+Content type 'application/octet-stream' length 3063309 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+* installing *source* package ‘isoband’ ...
+** package ‘isoband’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clip-lines.cpp -o clip-lines.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isoband.cpp -o isoband.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c polygon.cpp -o polygon.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c separate-polygons.cpp -o separate-polygons.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-clip-lines.cpp -o test-clip-lines.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-runner.cpp -o test-runner.o
+[I 12:44:55.991 NotebookApp] Saving file at /05-01-Vectors.ipynb
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -Itestthat    -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-separate-polygons.cpp -o test-separate-polygons.o
+g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o isoband.so clip-lines.o init.o isoband.o polygon.o separate-polygons.o test-clip-lines.o test-runner.o test-separate-polygons.o -L/usr/lib/R/lib -lR
+installing to /srv/rlibs/00LOCK-isoband/00new/isoband/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (isoband)
+* installing *source* package ‘scales’ ...
+** package ‘scales’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (scales)
+* installing *source* package ‘ggplot2’ ...
+** package ‘ggplot2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggplot2)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbQGr8c/downloaded_packages’
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/ggplot2_3.3.5.tar.gz'
+Content type 'application/octet-stream' length 3063309 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+* installing *source* package ‘ggplot2’ ...
+** package ‘ggplot2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggplot2)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbQGr8c/downloaded_packages’
+trying URL 'https://mran.microsoft.com/snapshot/2021-10-09/src/contrib/NISTunits_1.0.1.tar.gz'
+Content type 'application/octet-stream' length 172484 bytes (168 KB)
+==================================================
+downloaded 168 KB
+
+* installing *source* package ‘NISTunits’ ...
+** package ‘NISTunits’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (NISTunits)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbQGr8c/downloaded_packages’
+[I 12:46:56.449 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[I 12:48:09.868 NotebookApp] Kernel started: 0d08b4f9-a42b-47b2-82a9-fd5663fc64a0, name: python3
+[I 12:48:48.035 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 12:48:48.036 NotebookApp] Notebook STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb is not trusted
+[I 12:48:56.963 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[W 12:49:09.025 NotebookApp] Notebook STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb is not trusted
+[I 12:51:10.170 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 12:51:10.170 NotebookApp] Notebook STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb is not trusted
+[I 12:57:31.515 NotebookApp] Starting buffering for 0d08b4f9-a42b-47b2-82a9-fd5663fc64a0:d8625117-e898-4fae-854f-632a7d2ed2db
+[W 12:58:04.128 NotebookApp] Culling 'idle' kernel 'ir' (44883046-35b0-4447-9823-2475300883e6) with 2 connections due to 638 seconds of inactivity.
+[I 12:58:04.129 NotebookApp] Kernel shutdown: 44883046-35b0-4447-9823-2475300883e6
+[I 12:59:18.647 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:01:19.063 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:03:19.466 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:05:19.913 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:07:21.101 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 13:08:04.128 NotebookApp] Culling 'idle' kernel 'python3' (0d08b4f9-a42b-47b2-82a9-fd5663fc64a0) with 0 connections due to 640 seconds of inactivity.
+[I 13:08:04.129 NotebookApp] Kernel shutdown: 0d08b4f9-a42b-47b2-82a9-fd5663fc64a0
+[I 13:08:36.163 NotebookApp] Kernel started: d7f57397-0c15-44e9-b979-7786a403b581, name: ir
+[I 13:08:37.457 NotebookApp] Adapting from protocol version 5.0 (kernel d7f57397-0c15-44e9-b979-7786a403b581) to 5.3 (client).
+[I 13:09:02.250 NotebookApp] Saving file at /05-01-Vectors.ipynb
+[I 13:09:21.511 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:11:21.924 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:13:22.323 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:15:22.745 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[W 13:19:04.128 NotebookApp] Culling 'idle' kernel 'ir' (d7f57397-0c15-44e9-b979-7786a403b581) with 1 connections due to 611 seconds of inactivity.
+[I 13:19:04.129 NotebookApp] Kernel shutdown: d7f57397-0c15-44e9-b979-7786a403b581
+[I 13:21:23.197 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:23:23.669 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:25:24.088 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:27:24.498 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:28:40.941 NotebookApp] Saving file at /STD-0521A_AngJiaLingJervine_IU5_lab1.ipynb
+[I 13:30:53.502 NotebookApp] Creating new directory in 
+[W 13:30:59.686 NotebookApp] delete /Untitled Folder
+[I 13:31:07.753 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
